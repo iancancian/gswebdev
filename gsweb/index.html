@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Solution</title>
+
+
+    <!-- link com google fontts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- link com css -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/headers.css">
+    <link rel="stylesheet" href="./css/btn.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/card.css">
+
+
+</head>
+
+<body>
+
+    <!-- começo do header  -->
+    <div class="container">
+        <header class="header-page">
+
+            <nav class="header-menu">
+
+                <ul>
+                    <a href="#quem" class="btn">Quem somos nós</a>
+                    <a href="#problema" class="btn">Principais problemas</a>
+                    <a href="#solucao" class="btn">Como resolver o Problema</a>
+                    <a href="#ideia" class="btn">Ideia Do Projeto</a>
+                    <a href="#login" class="btn">Login</a>
+                    <a href="#ctt" class="btn">Contato</a>
+                </ul>
+
+            </nav>
+
+        </header>
+    </div>
+    <!-- fim do header  -->
+
+    <!-- começo do container 1 -->
+    <div class="container1 bg-image1" id="quem">
+        <div class="hero">
+
+            <h1>Quem somos ?<h1>
+                    <h3>Nós somos a Green Corp, uma empresa com o foco em agricultura sustentável</h3>
+
+        </div>
+    </div>
+    <!-- fim do container 1  -->
+
+    <!-- começo do container 2  -->
+    <div class="container2 bg-image2" id="problema">
+
+        <div class="hero">
+
+            <h1>Principais problemas</h1>
+
+            <h3>O agronegócio nos dias atuais tem diversos problemas, como por exemplo:
+
+                <div class="problema">
+                    <ul>
+                        <li> • O desperdício de água</li>
+                        <li> • A contaminação da água, do solo e do ar</li>
+                        <li> • Erosão e compactação do solo</li>
+                        <li> • Produzir mais com menos mão de obra</li>
+                    </ul>
+                </div>
+            </h3>
+        </div>
+
+    </div>
+    <!-- fim do container 2  -->
+
+    <!-- começo do container 3  -->
+    <div class="container3 bg-image3" id="solucao">
+
+        <div class="hero">
+
+            <h1>Solução do problema</h1>
+
+            <div class="soluçao">
+                <h3>Para solucionar esses problemas, nós da Green Corp, criamos este projeto que consiste em um
+                    mecanismo de reultilização da água, controle de umidade e de pragas e aumento da produtividade em
+                    massa
+                </h3>
+            </div>
+        </div>
+
+    </div>
+    <!-- fim do container 3  -->
+
+    <!-- começo do container 4 -->
+    <div class="container4 bg-image4" id="ideia">
+
+        <h1>Ideia Do Projeto</h1>
+
+        <div class="hero2">
+            <div class="slideshow-container">
+                <div class="slide">
+                    <img src="/images/card1.jpeg">
+                    <div class="slide-text">
+
+                        <p>Placa que regula a umidade do solo, absorvendo o excesso</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="/images/card2.jpeg">
+                    <div class="slide-text">
+
+                        <p>Sistema de funcionamento da placa, com sensores de umidade, tanque de água e mangueira para
+                            transporte</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="/images/card3.jpeg">
+                    <div class="slide-text">
+
+                        <p>Destino da mangueira, tanque fora da terra para fácil manuseio</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="/images/card4.jpeg">
+                    <div class="slide-text">
+
+                        <p>Sistema de decantação dentro do tanque fora da terra</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="/images/card5.jpeg">
+                    <div class="slide-text">
+
+                        <p>Sistema de filtração pelo barril conectado ao tanque</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="/images/card6.jpeg">
+                    <div class="slide-text">
+
+                        <p>Água limpa sendo distribuída diretamente ao solo ou por "sprinklers"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- fim do container 4 -->
+
+    <!-- começo do container 5  -->
+    <div class="container5" id="login">
+        <form class="login" onsubmit="validarLogin(event)" method="post">
+            <h1>Login</h1>
+
+            <!-- usuario  -->
+
+            <label for="usuario">Usuário:</label>
+            <input type="text" placeholder="Digite o usuário" id="usuario" name="usuario" required>
+
+
+            <!-- senha  -->
+
+            <label for="senha">Senha:</label>
+            <input type="password" placeholder="Digite a senha" id="senha" name="senha" required>
+
+
+            <!-- botão enviar  -->
+            <input type="submit" class="submit" value="Entrar">
+        </form>
+    </div>
+    <!-- fim do container 5  -->
+
+    <!-- começo do container 6  -->
+    <div class="container6 bg-image6" id="ctt">
+        <form class="contato" onsubmit="return validarFormulario()" method="post">
+            <h1>Contato</h1>
+
+            <!-- nome  -->
+
+            <label for="nome">Nome:</label>
+            <input type="text" placeholder="Digite seu nome" required="required">
+
+            <!-- telefone  -->
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefoneid" placeholder="Digite seu telefone" required="required">
+
+            <!-- e-mail  -->
+
+            <label for="email">Email:</label>
+            <input type="email" id="emailid" placeholder="Digite seu email" required="required">
+
+            <!-- mensagem  -->
+
+            <label for="mensagem">Deixe sua mensagem:</label>
+            <input type="text" id="msgid" placeholder="Digite sua mensagem" required="required">
+
+            <!-- botão enviar  -->
+            <input type="submit" class="submit" value="Enviar">
+        </form>
+          
+        <button class="btn" id="darkModeButton" onclick="toggleDarkMode()">Dark Mode</button>
+    </div>
+    <p class="foot" id="data-hora"></p>
+
+    <!-- fim do container 6  -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

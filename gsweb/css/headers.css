@@ -1,0 +1,32 @@
+.header-page{
+    width: 90%;
+    height: 14vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px;
+    position: absolute;
+    top: 10px;
+    color: #dac8bc;
+}
+
+h2{
+    margin-right: auto;
+    font-size: 50px;
+}
+
+.header-menu ul{
+    display: flex;
+    gap: 40px;
+}
+
+.header-menu a{
+    color: #dac8bc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover{
+    color: #607d3b !important;
+}

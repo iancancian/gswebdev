@@ -1,0 +1,22 @@
+.card-item{
+    background-color:#DAC8B3;
+    margin-top: 10px;
+    width: 28%;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    row-gap: 20px;
+    box-shadow: 1px 1px 20px #607d3b;
+    border-radius: 35px;
+    padding: 8px;
+}
+
+.card-item img{
+    width:65%;
+    margin: 5px;
+    border-radius: 35px;
+}
